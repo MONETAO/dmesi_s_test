@@ -33,9 +33,15 @@ margin: 8px;
 }
 
 .search_button{
-    width: 183px;
-    height: 51px;
-    border-radius: 100px;
+    width: 291px;
+    height: 64px;
+    border-radius: 21px;
+    background: #557C43;
+    color: #FBF7E5;
+text-align: center;
+font-size: 30px;
+border: 1px solid #FFF;
+flex-shrink: 0;
 }
 
 .icon img{
