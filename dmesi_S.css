@@ -38,10 +38,10 @@ margin: 8px;
     border-radius: 21px;
     background: #557C43;
     color: #FBF7E5;
-text-align: center;
-font-size: 30px;
-border: 1px solid #FFF;
-flex-shrink: 0;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid #FFF;
+    flex-shrink: 0;
 }
 
 .icon img{
