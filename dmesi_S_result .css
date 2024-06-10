@@ -135,6 +135,8 @@ body {
     font-size: 24px;
     cursor: pointer;
     z-index: 1010;
+    color: #557C43;
+
 }
 
 .hidden {
