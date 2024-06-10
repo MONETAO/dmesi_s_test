@@ -1,0 +1,56 @@
+body{
+    background-color: #fbf7e5;
+    text-align: center;
+}
+
+.button-container button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.button-container button.selected {
+    background-color: #557c43;
+    color: white;
+}
+
+.button-container div{
+display: inline-block;
+margin: 8px;
+}
+
+.button-container p{
+    margin-top: 2px;
+    margin-bottom: 5px;
+    }
+
+.button-container{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.search_button{
+    width: 183px;
+    height: 51px;
+    border-radius: 100px;
+}
+
+.icon img{
+    width: 66px;
+}
+
+.food_result img{
+    width: 185px;
+}
+@media (max-width: 414px) {
+    .button-container button{
+        width: 80px;
+        height: 80px;
+    }
+    .icon img{
+        width: 54px;
+    }
+}

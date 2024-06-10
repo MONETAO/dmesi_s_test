@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rakuna Dmesi</title>
+    <link rel="stylesheet" href="dmesi_S_result .css">
+</head>
+<body>
+    <div id="resultContainer" class="food_result food-result-container"></div>
+    <button class="back-button" onclick="goBack()">Back to Search</button>
+
+    <div id="popup" class="popup hidden">
+        <div class="popup-background">
+            <img class="restaurantImage" id="restaurantImage" src="" alt="estaurant Image">
+        </div>
+        <div class="popup-foreground">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <h2 id="restaurantName"></h2>
+            <div class="restaurant-info">
+                <div id="icons" class="restuarant_icon"></div>
+                <p id="hours"></p>
+            </div>
+            <div id="foodItems" class="food-items-container"></div>
+            <p>location</p>
+            <img class="locationImage" id="locationImage" src="" alt="Location Image">
+        </div>
+    </div>
+
+    <script src="foods_S.js"></script>
+    <script src="restaurants_S.js"></script>
+    <script src="dmesi_S.js"></script>
+</body>
+</html>
